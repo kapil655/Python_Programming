@@ -1,0 +1,6 @@
+1.Download python latest version https://www.python.org/
+2.Install this on your local machine
+3.select  the  necessary option from python  Feature 
+4.Don't foget to select the python path option (Add python to environment variable)
+5.After the installiation Successfull open command promt and check the python sucessfully added to the path or not using (python --version)
+6.If it shows the python version like 3.10.9 accoding to the python latest version it is ok if not then restart the installiation and check the necessary section during installiation
