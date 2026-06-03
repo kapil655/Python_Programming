@@ -1,0 +1,88 @@
+1. Arithmetic Operators
+
+Used for basic math operations.
+
+Operator	Meaning	Example
++	Addition	5 + 3 = 8
+-	Subtraction	5 - 3 = 2
+*	Multiplication	5 * 3 = 15
+/	Division	6 / 3 = 2
+%	Modulus (remainder)	5 % 2 = 1
+int a = 10, b = 3;
+printf("%d", a + b);  // 13
+
+
+2. Logical Operators
+
+Used to combine conditions (mostly in if/else).
+
+Operator	Meaning	Example
+and / &&	Logical AND	true && false = false
+or / `		`
+not / !	Logical NOT	!true = false
+
+
+if (a > 5 && b < 10) {
+    printf("Condition true");
+}
+
+
+
+3. Comparison (Relational) Operators
+
+Used to compare values.
+
+Operator	Meaning	Example
+>	Greater than	5 > 3 → true
+<	Less than	3 < 5 → true
+>=	Greater or equal	5 >= 5 → true
+<=	Less or equal	4 <= 5 → true
+!=	Not equal	5 != 3 → true
+
+
+
+if (a != b) {
+    printf("Not equal");
+}
+
+
+
+4. Bitwise Operators (with example)
+
+Bitwise operators work on binary bits (0 and 1).
+
+Operator	Meaning
+&	AND
+`	`
+^	XOR
+~	NOT
+<<	Left shift
+>>	Right shift
+
+Not
+a = 5  →  0101
+b = 3  →  0011
+
+
+And
+0101
+0011
+----
+0001  = 1
+
+
+OR
+Or0101
+0011
+----
+0111  = 7
+
+XOR
+0101
+0011
+----
+0110  = 6
+
+
+
+
