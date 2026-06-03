@@ -1,0 +1,18 @@
+# Input and Output in Python
+
+1. The print() function is used to display output on the screen.
+
+2. By using the print() function, we can display numbers, text, variables, and expressions.
+
+3. The input() function is used to receive input from the user through the keyboard.
+
+4. By using the input() function, we can take multiple inputs from the user as required.
+
+5. The input() function returns the entered value as a string by default. To use it as a number, it must be converted using functions such as `int()` or `float()`.
+
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print("Name:", name)
+print("Age:", age)
