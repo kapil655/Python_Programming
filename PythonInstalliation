@@ -1,6 +1,38 @@
-1.Download python latest version from this site  https://www.python.org/
-2.Install this on your local machine
-3.select  the  necessary option from python  Feature 
-4.Don't foget to select the python path option (Add python to environment variable)
-5.After the installiation Successfull open command promt and check the python sucessfully added to the path or not using (python --version)
-6.If it shows the python version like 3.10.9 accoding to the python latest version it is ok if not then restart the installiation and check the necessary section during installiation
+
+# Python Installation Guide
+
+1. Download the latest version of Python from the official website:
+
+   * https://www.python.org/
+
+2. Run the downloaded installer and begin the installation process.
+
+3. During installation, select the necessary Python features as required.
+
+4. Make sure to check the option:
+
+   * **Add Python to PATH** (Add Python to Environment Variables)
+
+5. Complete the installation and wait for the process to finish successfully.
+
+6. After installation:
+
+   * Open **Command Prompt**.
+   * Type the following command and press Enter:
+
+     ```
+     python --version
+     ```
+
+7. Verify the output:
+
+   * If the command displays the installed Python version (for example, Python 3.10.9 or the latest version you installed), Python has been successfully added to the system PATH.
+   * If the command does not display the Python version, reinstall Python and ensure that the **Add Python to PATH** option is selected correctly during installation.
+
+8. Repeat the verification using:
+
+   ```
+   python --version
+   ```
+
+   until the correct Python version is displayed.
