@@ -1,0 +1,14 @@
+1.Strings in python are sequence of characters enclosed with in double or single quote.
+2.Strings are immutable meaning there values cann't be changed directly.
+3.Common operations include in string are :- accessing individual character using indezing, slicing to extract substings, concatenate string and print multiple string value using * operator.
+
+#Some common String Operations includes:-
+string.ascii_letters – Contains all uppercase and lowercase English letters (a-z, A-Z).
+string.ascii_lowercase – Contains all lowercase English letters (a-z).
+string.ascii_uppercase – Contains all uppercase English letters (A-Z).
+string.digits – Contains all decimal digit characters (0-9).
+string.hexdigits – Contains all hexadecimal digit characters (0-9, a-f, A-F).
+string.octdigits – Contains all octal digit characters (0-7).
+string.punctuation – Contains all common punctuation symbols (e.g., !, @, #, $, %, etc.).
+string.printable – Contains all characters that can be printed, including letters, digits, punctuation, and whitespace.
+string.whitespace – Contains all whitespace characters such as space, tab (\t), newline (\n), and carriage return (\r).
