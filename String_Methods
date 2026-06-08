@@ -1,0 +1,34 @@
+name = "kapil"
+
+print(name.upper())       # Converts all characters to uppercase
+print(name.lower())       # Converts all characters to lowercase
+print(name.capitalize())  # Capitalizes the first character only
+print(name.title())       # Capitalizes the first letter of each word
+
+name = "Kathmandu"
+
+# name[1:2]
+# Start at index 1, stop before index 2 (only 1 character)
+print(name[1:2])   # a
+
+# name[1:5:1]
+# Start at index 1, go up to 4, step = 1 (normal forward movement)
+print(name[1:5:1]) # atha
+
+# name[1::]
+# Start at index 1 and go till the end of the string
+print(name[1::])   # athmandu
+
+# name[-5:-1]
+# Negative indexing: start from 5th last to 2nd last (stop is excluded)
+print(name[-5:-1]) # man
+
+# name[-5:-1:-2]
+# Step is -2 (moving backward), but start < stop direction mismatch
+# So this returns an empty string
+print(name[-5:-1:-2])  
+
+
+name = "  Kathmandu  "
+# strip() removes leading (left) and  (right) whitespace
+print(name.strip())   # Kathmandu
